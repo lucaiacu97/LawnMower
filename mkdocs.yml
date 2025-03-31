@@ -1,0 +1,7 @@
+site_name: My Autonomous Mower Project
+nav:
+  - Home: index.md
+  - Setup: setup.md
+  - Development: development.md
+theme:
+  name: material  # Use MkDocs Material for a better UI
