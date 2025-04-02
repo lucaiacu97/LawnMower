@@ -25,4 +25,4 @@ nav:
       - Installation: Info/Installation.md
 
 theme:
-  name: mkdocs
+  name: material
