@@ -1,7 +1,28 @@
-site_name: My Autonomous Mower Project
+site_name: Autonomous Mower Project
+
 nav:
-  - Home: index.md
-  - Setup: setup.md
-  - Development: development.md
+  - Index: Index.md
+  - Project:
+      - Overview: Project/Overview.md
+      - Vision and goals:
+          - Project/Vision_goals/Motivations.md 
+          - Project/Vision_goals/Target.md 
+          - Project/Vision_goals/Objectives.md
+      - Architecture: 
+          - Project/Architecture/Hardware.md
+	      - Project/Architecture/Hardware/Mower.md
+	      - Project/Architecture/Hardware/Station.md
+	      - Project/Architecture/Hardware/User_app.md
+          - Project/Architecture/Software.md
+              - Project/Architecture/Software/Communication.md
+              - Project/Architecture/Software/Orientation.md
+              - Project/Architecture/Software/Navigation.md
+      - Design: 
+          -Project/Design/Something.md
+  - Author: Author.md
+  - Other informations:
+      - Rules during implementation: Info/Rules.md
+      - Installation: Info/Installation.md
+
 theme:
   name: material  # Use MkDocs Material for a better UI
