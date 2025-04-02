@@ -1,5 +1,7 @@
 site_name: Autonomous Mower Project
 
+docs_dir: docs
+
 nav:
   - Index: Index.md
   - Project:  
