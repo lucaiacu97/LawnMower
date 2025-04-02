@@ -10,9 +10,9 @@ nav:
           - Project/Vision_goals/Objectives.md
       - Architecture: 
           - Project/Architecture/Hardware.md
-	      - Project/Architecture/Hardware/Mower.md
-	      - Project/Architecture/Hardware/Station.md
-	      - Project/Architecture/Hardware/User_app.md
+             - Project/Architecture/Hardware/Mower.md
+             - Project/Architecture/Hardware/Station.md
+             - Project/Architecture/Hardware/User_app.md
           - Project/Architecture/Software.md
               - Project/Architecture/Software/Communication.md
               - Project/Architecture/Software/Orientation.md
@@ -25,4 +25,4 @@ nav:
       - Installation: Info/Installation.md
 
 theme:
-  name: material  # Use MkDocs Material for a better UI
+  name: mkdocs
