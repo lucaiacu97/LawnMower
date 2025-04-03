@@ -11,91 +11,97 @@ This documentation provides a structured guide to its **architecture, design, an
 ### 📖 **[Overview](Project/Overview.md)**
 Provides a high-level description of the project, including:  
 
-- **Motivations**: Why this project was created.  
+- **[Motivations](Project/Overview.md#motivations)**: Why this project was created.  
 
-- **Target**: Who the mower is designed for.  
+- **[Target](Project/Overview.md#target)**: Who the mower is designed for.  
 
-- **Objectives**: Key goals and features the mower aims to achieve.  
+- **[Objectives](Project/Overview.md#objectives)**: Key goals and features the mower aims to achieve.  
 
 ---
 
-### 🏛️ **[Architecture](Project/Architecture.md)**  
+### 🏛️ **Architecture**  
 Describes the high-level structure of the system, divided into hardware and software components.  
 
-#### **[Hardware](Project/Architecture.md/*Hardware)**  
+#### **[Hardware](Project/Architecture/Hardware.md)**  
 Outlines the physical components and their roles in the system.  
 
-- **System Components**: Overview of all key hardware parts (Mower, Charging Station, User App).  
+- **[System components](Project/Architecture/Hardware.md#system-components)**: Overview of all key hardware parts (Mower, Charging Station, User App).  
 
-- **Sensors**: List and function of sensors used for navigation, localization, and communication.  
+- **[Sensors](Project/Architecture/Hardware.md#sensors)**: List and function of sensors used for navigation, localization, and communication.  
 
-- **Mechanical Parts**: Description of the physical structure, materials, and movement system.  
+- **[Mechanical parts](Project/Architecture/Hardware.md#mechanical-parts)**: Description of the physical structure, materials, and movement system.  
 
-#### **[Software](Project/Architecture.md/*Software)**  
+#### **[Software](Project/Architecture/Software.md)**  
 Explains how the mower is controlled and interacts with its environment.  
 
-- **Communication**: How the mower exchanges data (e.g., LoRa, Wi-Fi, Bluetooth).  
+- **[Communication](Project/Architecture/Software.md#communication)**: How the mower exchanges data (e.g., LoRa, Wi-Fi, Bluetooth).  
 
-- **Navigation**: Path planning, obstacle avoidance, and coverage strategies.  
+- **[Navigation](Project/Architecture/Software.md#navigation)**: Path planning, obstacle avoidance, and coverage strategies.  
 
-- **Localization**: Positioning methods (GPS-RTK, UWB, RFID).  
-
-- **Other Features**: Additional functionalities like remote control, scheduling, or AI-based optimizations.  
+- **[Localization](Project/Architecture/Software.md#localization)**: Positioning methods (GPS-RTK, UWB, RFID).  
 
 ---
 
-### 🧩 **[Design](Project/Architecture.md/*Design)**  
+### 🧩 **Design**  
 Focuses on the detailed technical aspects of how the system is built, split into three main areas:  
 
-#### **[Conceptual choices](Project/Architecture.md/*Conceptual-choices)**  
+#### **[Conceptual choices](Project/Design/Conceptual_choices.md)**  
 Outlines fundamental design decisions and overall code structure.  
 
-- **Design Patterns & Architecture**: Key patterns and module layering chosen for the project.  
+- **[Design patterns](Project/Design/Conceptual_choices.md#design_patterns)**: Key patterns and module layering chosen for the project.  
 
-- **Code Organization**: File/folder structure and separation of concerns.  
+- **[Code organization](Project/Design/Conceptual_choices.md#code_organization)**: File/folder structure and separation of concerns.  
 
-- **Libraries & Dependencies**: Rationale for the external libraries and frameworks used.  
+- **[Libraries and dependencies](Project/Design/Conceptual_choices.md#libraries_and_dependencies)**: Rationale for the external libraries and frameworks used.  
 
-#### **[Implementation](Project/Architecture.md/*Implementation)**  
-Details the low-level implementation aspects of the system.  
+#### **[Implementation](Project/Design/Implementation.md)**  
+Details the low-level implementation aspects of the system.   
 
-- **Algorithms & Data Structures**: Core algorithms, data structures, and performance considerations.  
+- **[Data structures and interfaces](Project/Design/Implementation.md#data_structures_and_interfaces)**: How modules interact through APIs, protocols, and error handling. 
+ 
+- **[Algorithms](Project/Design/Implementation.md#algorithms)**: Core algorithms, data structures, and performance considerations. 
 
-- **Communication Protocols & Interfaces**: How modules interact through APIs, protocols, and error handling.  
-
-- **Module-Specific Details**: In-depth insights into critical modules and implementation challenges.  
+- **[Module details](Project/Design/Implementation.md#module_details)**:: In-depth insights into critical modules and implementation challenges.  
 
 ---
 
-### 🧪 **[Testing](Project/Architecture.md/*Testing)**  
+### 🧪 **[Testing](Project/Testing.md)**  
 Describes the methods used to ensure system reliability and performance.  
 
-- **Unit Testing**: Tests for individual components and modules.  
+- **[Unit testing](Project/Testing.md#unit-testing)**: Tests for individual components and modules.  
 
-- **Integration Testing**: Verifying interactions between different parts of the system.  
+- **[Integration testing](Project/Testing.md#integration-testing)**: Verifying interactions between different parts of the system.  
 
-- **Performance Testing & Error Handling**: Strategies to measure system responsiveness and robustness.  
+- **[Performance testing](Project/Testing.md#performance-testing)**: Strategies to measure system responsiveness.  
+
+- **[Error handling](Project/Testing.md#error-handling)**: Strategies to measure system robustness.  
 
 ---
 
-### 🚀 **[Future work](Project/Architecture.md/*Future-work)**  
+### 🚀 **[Future work](Project/Future_work.md)**  
 Outlines potential future improvements and directions for the project.  
 
-- **Scalability Enhancements**: Ideas for expanding the mower’s capabilities.  
+- **[Scalability enhancements](Project/Future_work.md#scalability_enhancements)**: Ideas for expanding the mower’s capabilities.  
 
-- **Advanced AI Integration**: Exploring machine learning for improved functionality.  
+- **[AI integration](Project/Future_work.md#ai-integration)**: Exploring machine learning for improved functionality.  
 
-- **Enhanced User Features**: Future additions like real-time reporting and smarter scheduling.  
+- **[Enhanced user features](Project/Future_work.md#enhanced-user-features)**: Future additions like real-time reporting and smarter scheduling.  
 
-- **Hardware Improvements**: Upgrades to battery systems, sensors, or mechanical designs.
+- **[Hardware improvements](Project/Future_work.md#hardware-improvements)**: Upgrades to battery systems, sensors, or mechanical designs.
 
 ---
 
-### ℹ️ **[Other information](Project/Architecture.md/*Other-information)**  
-Provides additional useful information for contributors and users.  
+### ℹ️ **Other information**  
+Provides additional useful information for contributors and users.   
 
-- **Rules during Implementation**: Guidelines for maintaining code quality and best practices.  
+- **[Rules during Implementation](Project/Info/Rules.md)**: Guidelines for maintaining code quality and best practices.  
 
-- **Installation**: Steps to set up and run the project.  
+- **[Installation](Project/Info/Installation.md)**: Steps to set up and run the project.  
+
+---
+
+## 🧑‍💻 **About the author**
+### **[Luca Iacucci](Project/Author.md)**  
+Everything you need to know about the author.  
 
 ---

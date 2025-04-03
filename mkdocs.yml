@@ -3,18 +3,21 @@ site_name: Autonomous Mower Project
 docs_dir: docs
 
 nav:
-  - Index: Home.md
+  - Home: Home.md
   - Project:  
-      - Overview: Project/Overview/Overview.md  
+      - Overview: Project/Overview.md  
       - Architecture: 
           - Hardware: Project/Architecture/Hardware.md
           - Software: Project/Architecture/Software.md
-      - Design: 
-          - Something: Project/Design/Something.md
+      - Design:
+          - Conceptual choices: Project/Design/Conceptual_choices.md
+          - Implementation: Project/Design/Implementation.md
+      - Testing: Project/Testing.md
+      - Future work: Project/Future_work.md
+      - Other informations:
+          - Rules during implementation: Project/Info/Rules.md
+          - Installation: Project/Info/Installation.md
   - Author: Author.md
-  - Other informations:
-      - Rules during implementation: Info/Rules.md
-      - Installation: Info/Installation.md
 
 theme:
   name: material
