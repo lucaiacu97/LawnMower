@@ -1,6 +1,6 @@
-# 🚀 **Autonomous Mower Project Documentation**
+# **Autonomous Mower Project Documentation**
 
-Welcome to the **Autonomous Mower Project** documentation!  
+Welcome to the **Autonomous Mower Project** documentation!    
 This project aims to develop a **fully autonomous robotic lawn mower**, integrating advanced hardware and software for efficient and precise grass cutting.  
 This documentation provides a structured guide to its **architecture, design, and implementation**.  
 
@@ -8,14 +8,14 @@ This documentation provides a structured guide to its **architecture, design, an
 
 ## 📌 **Project Structure**
 
-### 📖 **[Overview](Project/Overview.md)**
-Provides a high-level description of the project, including:  
+### 📖 **[Introduction](Project/Introduction.md)**
+Provides a general description of the project, including:  
 
-- **[Motivations](Project/Overview.md#motivations)**: Why this project was created.  
+- **[Overview](Project/Introduction.md#overview)**: Why this project was created and how the projects.  
 
-- **[Target](Project/Overview.md#target)**: Who the mower is designed for.  
+- **[Target](Project/Introduction.md#target)**: What type of challenges and features aims to have.  
 
-- **[Objectives](Project/Overview.md#objectives)**: Key goals and features the mower aims to achieve.  
+- **[Objectives](Project/Introduction.md#objectives)**: Key goals the project aims to achieve.  
 
 ---
 
@@ -27,18 +27,20 @@ Outlines the physical components and their roles in the system.
 
 - **[System components](Project/Architecture/Hardware.md#system-components)**: Overview of all key hardware parts (Mower, Charging Station, User App).  
 
-- **[Sensors](Project/Architecture/Hardware.md#sensors)**: List and function of sensors used for navigation, localization, and communication.  
+- **[Sensors](Project/Architecture/Hardware.md#sensors)**: List and function of sensors used for navigation and localization.  
+
+- **[Communication modules](Project/Architecture/Hardware.md#communication-modules)**: List and function of modules used for communication.  
 
 - **[Mechanical parts](Project/Architecture/Hardware.md#mechanical-parts)**: Description of the physical structure, materials, and movement system.  
 
 #### **[Software](Project/Architecture/Software.md)**  
 Explains how the mower is controlled and interacts with its environment.  
 
-- **[Communication](Project/Architecture/Software.md#communication)**: How the mower exchanges data (e.g., LoRa, Wi-Fi, Bluetooth).  
+- **[Communication](Project/Architecture/Software.md#communication)**: How the station, mower and app exchange data.  
 
 - **[Navigation](Project/Architecture/Software.md#navigation)**: Path planning, obstacle avoidance, and coverage strategies.  
 
-- **[Localization](Project/Architecture/Software.md#localization)**: Positioning methods (GPS-RTK, UWB, RFID).  
+- **[Localization](Project/Architecture/Software.md#localization)**: Positioning methods used.  
 
 ---
 
@@ -57,9 +59,9 @@ Outlines fundamental design decisions and overall code structure.
 #### **[Implementation](Project/Design/Implementation.md)**  
 Details the low-level implementation aspects of the system.   
 
-- **[Data structures and interfaces](Project/Design/Implementation.md#data_structures_and_interfaces)**: How modules interact through APIs, protocols, and error handling. 
+- **[Data structures and interfaces](Project/Design/Implementation.md#data_structures_and_interfaces)**: How modules interact through APIs, protocols, and error handling.  
  
-- **[Algorithms](Project/Design/Implementation.md#algorithms)**: Core algorithms, data structures, and performance considerations. 
+- **[Algorithms](Project/Design/Implementation.md#algorithms)**: Core algorithms, data structures, and performance considerations.  
 
 - **[Module details](Project/Design/Implementation.md#module_details)**:: In-depth insights into critical modules and implementation challenges.  
 
@@ -87,12 +89,12 @@ Outlines potential future improvements and directions for the project.
 
 - **[Enhanced user features](Project/Future_work.md#enhanced-user-features)**: Future additions like real-time reporting and smarter scheduling.  
 
-- **[Hardware improvements](Project/Future_work.md#hardware-improvements)**: Upgrades to battery systems, sensors, or mechanical designs.
+- **[Hardware improvements](Project/Future_work.md#hardware-improvements)**: Upgrades to battery systems, sensors, or mechanical designs.  
 
 ---
 
 ### ℹ️ **Other information**  
-Provides additional useful information for contributors and users.   
+Provides additional useful information for contributors and users.  
 
 - **[Rules during Implementation](Project/Info/Rules.md)**: Guidelines for maintaining code quality and best practices.  
 
